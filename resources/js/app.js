@@ -37,6 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     x: {
                         ticks: {
                             color: 'white',
+                            maxRotation: 0,
+                            maxTicksLimit: 7,
                         },
                         grid: {
                             color: 'gray'
@@ -93,6 +95,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     x: {
                         ticks: {
                             color: 'white',
+                            maxRotation: 0,
+                            maxTicksLimit: 7,
                         },
                         grid: {
                             color: 'gray'
@@ -149,6 +153,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     x: {
                         ticks: {
                             color: 'white',
+                            maxRotation: 0,
+                            maxTicksLimit: 7,
                         },
                         grid: {
                             color: 'gray'

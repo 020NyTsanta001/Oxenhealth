@@ -1,8 +1,8 @@
 <x-app-layout>
-    <div class="p-8">
-        <h1 class="text-3xl font-bold text-white mb-8">Suivi d'activités</h1>
+    <div>
+        <h1 class="text-2xl sm:text-3xl break-words font-bold text-white mb-8">Suivi d'activités</h1>
 
-        <div class="bg-zinc-900 rounded-3xl p-6 mb-8 border-zinc-800">
+        <div class="bg-zinc-900 rounded-3xl p-6 mb-8 border <div>">
             <form action="{{route('activity.store')}}" method="POST" class="space-y-4">
                 @csrf
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -38,14 +38,14 @@
             </form>
         </div>
 
-        <div class="bg-zinc-900 rounded-3xl p-6 border border-zinc-800">
+        <div class="bg-zinc-900 rounded-3xl p-6 border <div>">
             <h2 class="text-xl font-semibold text-white mb-6">
                 Historique
             </h2>
             <div class="space-y-4">
                 @forelse ($activityLogs as $log)
 
-                <div class="bg-zinc-800 rounded-2xl p-4 flex justify-between items-enter">
+                <div class="bg-zinc-800 rounded-2xl p-4 flex justify-between items-center gap-4">
                     <div>
                         <p class="text-white font-semibold">
                             {{$log->activity_type}}

@@ -12,7 +12,7 @@
                 
                 <section class="mb-12">
 
-                    <h2 class="text-3xl font-bold mb-6">
+                    <h2 class="text-2xl sm:text-3xl break-words font-bold mb-6">
                         Score Santé
                     </h2>
 
@@ -92,7 +92,7 @@
                 
                 <section>
 
-                    <h2 class="text-3xl font-bold mb-6">
+                    <h2 class="text-2xl sm:text-3xl break-words font-bold mb-6">
                         Tableau de bord
                     </h2>
 
@@ -100,7 +100,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
                     <div class="bg-zinc-900 p-6 rounded-2xl border border-zinc-800 hover:border-orange-500 transition-all">
-                        <p class="text-zinc-400 text-3xl font-bold">
+                        <p class="text-zinc-400 text-2xl sm:text-3xl break-words font-bold">
                             Activités physiques
                         </p>
                         @php
@@ -121,7 +121,7 @@
                                 <p class="text-zinc-400">
                                     Nombre d'activité faite en 7 jours 
                                 </p>
-                                <h3 class="text-3xl font-bold mt-2 {{ $activityColor }}">
+                                <h3 class="text-2xl sm:text-3xl break-words font-bold mt-2 {{ $activityColor }}">
                                     {{ $totalActivityLogs }} 
                                 </h3>
                             </div>
@@ -130,7 +130,7 @@
                                 <p class="text-zinc-400">
                                     Duration total 
                                 </p>
-                                <h3 class="text-3xl font-bold mt-2 {{ $activityColor }}">
+                                <h3 class="text-2xl sm:text-3xl break-words font-bold mt-2 {{ $activityColor }}">
                                     {{ $totalDuration }} mn
                                 </h3>
                             </div>
@@ -139,7 +139,7 @@
                                 <p class="text-zinc-400">
                                     Analyse: 
                                 </p>
-                                <h3 class="text-3xl font-bold mt-2 {{ $activityColor }}">
+                                <h3 class="text-2xl sm:text-3xl break-words font-bold mt-2 {{ $activityColor }}">
                                     {{ $insight3 }}
                                 </h3>
                             </div>
@@ -147,7 +147,7 @@
                     </div>
 
                     <div class="bg-zinc-900 p-6 rounded-2xl border border-zinc-800 hover:border-violet-400 transition-all">
-                        <p class="text-zinc-400 text-3xl font-bold">
+                        <p class="text-zinc-400 text-2xl sm:text-3xl break-words font-bold">
                             Sommeil
                         </p>
 
@@ -169,7 +169,7 @@
                                 <h3 class="text-zinc-400 font-bold">
                                     Sommeil moyen: 
                                 </h3>
-                                <h3 class="text-3xl font-bold mt-2  {{ $sleepColor }}">
+                                <h3 class="text-2xl sm:text-3xl break-words font-bold mt-2  {{ $sleepColor }}">
                                     {{ $averageSleep }} h
                                 </h3>
                             </div>
@@ -178,7 +178,7 @@
                                 <p class="text-zinc-400 font-bold">
                                      Sommeil total en 7 jours: 
                                 </p>
-                                <h3 class="text-3xl font-bold mt-2 {{ $sleepColor }}">
+                                <h3 class="text-2xl sm:text-3xl break-words font-bold mt-2 {{ $sleepColor }}">
                                     {{ $totalSleepLogs }} h
                                 </h3>
                             </div>
@@ -187,7 +187,7 @@
                                 <p class="text-zinc-400 font-bold">
                                     Analyse: 
                                 </p>
-                                <h3 class="text-3xl font-bold mt-2 {{ $sleepColor }}">
+                                <h3 class="text-2xl sm:text-3xl break-words font-bold mt-2 {{ $sleepColor }}">
                                     {{ $insight }}
                                 </h3>
                             </div>
@@ -195,7 +195,7 @@
                     </div>
 
                     <div class="bg-zinc-900 p-6 rounded-2xl border border-zinc-800 hover:border-cyan-500 transition-all">
-                        <p class="text-zinc-400 text-3xl font-bold">
+                        <p class="text-zinc-400 text-2xl sm:text-3xl break-words font-bold">
                             Hydratation
                         </p>
                         @php
@@ -218,7 +218,7 @@
                                 <p class="text-zinc-400 font-bold">
                                     Hydratation moyenne: 
                                 </p>
-                                <h3 class="text-3xl font-bold {{ $waterColor2 }}">
+                                <h3 class="text-2xl sm:text-3xl break-words font-bold {{ $waterColor2 }}">
                                     {{ $averageWater }} L
                                 </h3>
                             </div>
@@ -242,7 +242,7 @@
                                 <p class="text-zinc-400 font-bold">
                                     Eau total consommé: 
                                 </p>
-                                <h3 class="text-3xl font-bold {{ $waterColor }}">
+                                <h3 class="text-2xl sm:text-3xl break-words font-bold {{ $waterColor }}">
                                     {{ $totalWaterLogs }} L
                                 </h3>
                             </div>
@@ -251,7 +251,7 @@
                                 <p class="text-zinc-400 font-bold">
                                     Analyse: 
                                 </p>
-                                <h3 class="text-3xl font-bold mt-2 {{ $waterColor }}">
+                                <h3 class="text-2xl sm:text-3xl break-words font-bold mt-2 {{ $waterColor }}">
                                     {{ $insight2 }}
                                 </h3>
                             </div>
@@ -263,7 +263,7 @@
                 <!-- ZONE GRAPHIQUE -->
                 <div class="mt-10 bg-zinc-900 p-6 rounded-2xl border border-zinc-800">
 
-                    <h3 class="text-3xl font-bold mb-6">
+                    <h3 class="text-2xl sm:text-3xl break-words font-bold mb-6">
                         Progression hebdomadaire
                     </h3>
                     <script>
@@ -278,13 +278,13 @@
                     </script>
 
 
-                    <div class="flex h-64 w-full items-center justify-center text-zinc-500">   
+                    <div class="relative h-56 sm:h-64 w-full mb-6">
                         <canvas id="activityChart"></canvas>
                     </div>
-                    <div class="flex h-64 w-full items-center justify-center text-zinc-500">   
+                    <div class="relative h-56 sm:h-64 w-full mb-6">
                         <canvas id="sleepChart"></canvas>
                     </div>
-                    <div class="flex h-64 w-full items-center justify-center text-zinc-500">   
+                    <div class="relative h-56 sm:h-64 w-full">
                         <canvas id="waterChart"></canvas>
                     </div>
 

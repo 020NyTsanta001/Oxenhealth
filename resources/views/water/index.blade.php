@@ -1,6 +1,6 @@
 <x-app-layout>
-    <div class="p-8">
-        <h1 class="text-3xl font-bold text-white mb-8">Hydratation</h1>
+    <div>
+        <h1 class="text-2xl sm:text-3xl break-words font-bold text-white mb-8">Hydratation</h1>
 
         <div class="bg-zinc-900 rounded-3xl p-6 mb-8 border-zinc-800">
             <form action="{{route('water.store')}}" method="POST" class="space-y-4">
@@ -21,7 +21,7 @@
                     <input type="date" name="water_date" class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl text-white p-4 focus:outline-none">
                 </div>
 
-                <button type="submit" class="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-2xl transition-all duration-300">
+                <button type="submit" class="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-2xl transition-all duration-300 w-full sm:w-auto">
                     Ajouter
                 </button>
             </form>
@@ -34,7 +34,7 @@
             <div class="space-y-4">
                 @forelse ($waterLogs as $log)
 
-                <div class="bg-zinc-800 rounded-2xl p-4 flex justify-between items-enter">
+                <div class="bg-zinc-800 rounded-2xl p-4 flex justify-between items-center gap-4">
                     <div>
                         <p class="text-white font-semibold">
                             {{$log->litre}} litre
